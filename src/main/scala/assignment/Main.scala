@@ -1,21 +1,17 @@
 package assignment
 
+
+import scala.collection.mutable
 import scala.io.Source
 
 object Main {
+    private var S = mutable.Stack[Int]()
 
-    var index = 0
+    private var previousNodes: Array[String] = Array()
 
+    private var currentStep = 0
 
-    def startElement(tag: String) = {
-
-    }
-
-    def endElement(tag: String): Unit = {
-
-    }
-
-    def findPrefixes(queries: Array[String]) = {
+    def findPrefixes(queries: Array[String]): Array[String] = {
         def findPrefixesRecur(queries: Array[String], res: Array[String]): Array[String] = {
             if (queries.length == 0) res
             else findPrefixesRecur(queries.dropRight(1), res :+ queries.mkString(""))
@@ -24,27 +20,29 @@ object Main {
         findPrefixesRecur(queries.dropRight(1), Array())
     }
 
-    def findPosfixes(queries: Array[String]) = {
+    def findPosfixes(queries: Array[String]): Array[String] = {
         def findPosfixesRecur(queries: Array[String], res: Array[String]): Array[String] = {
             if (queries.length == 0) res
             else findPosfixesRecur(queries.drop(1), res :+ queries.mkString(""))
         }
+
         findPosfixesRecur(queries.drop(1), Array())
     }
 
 
-    def KMP(queries: Array[String]): Unit = {
+    def KMP(nodePath: Array[String], queryPath: Array[String]): Int = {
 
-        val prefixes = findPrefixes(queries)
-        val posfixes = findPosfixes(queries)
-        val matches = prefixes.zip(posfixes).map{
-            case (prefix, posfix) => {
-                if (prefix.equalsIgnoreCase(posfix)) prefix.length
-                else -1
+        var lengths: Array[Int] = Array()
+        val prefixes = findPrefixes(queryPath)
+        val posfixes = findPosfixes(nodePath)
+        for (prefix <- prefixes) {
+            for (posfix <- posfixes) {
+                if (prefix.equalsIgnoreCase(posfix)) lengths = lengths :+ prefix.length
             }
         }
-        val a = 1
-
+        if (lengths.length > 0)
+            lengths.max
+        else 0
     }
 
     def processQuery(query: String): Array[String] = {
@@ -52,10 +50,39 @@ object Main {
         tags.slice(2, tags.length)
     }
 
+    def startElement(tag: String, path: Array[String], nodeId: Int) = {
+        S.push(currentStep)
+
+        // Store previous nodes
+        // previousNodes has the same size of the query path
+        if (previousNodes.length == path.length) {
+            previousNodes = previousNodes.slice(1, previousNodes.length)
+        }
+        previousNodes = previousNodes :+ tag
+
+        if (tag == path(currentStep)) {
+            // match
+            if (currentStep == path.length - 1) {
+                println(nodeId)
+                currentStep = 0
+            } else {
+                currentStep += 1
+            }
+        } else {
+            // Failure transition
+            currentStep = KMP(previousNodes, path)
+        }
+    }
+
+    def endElement(tag: String): Unit = {
+        currentStep = S.pop()
+    }
+
     def main(args: Array[String]): Unit = {
-        val queryStr = "//a/b/a/b/a/b/c/a"
-        val queries = processQuery(queryStr)
-        KMP(queries)
+        val queryStr = "//a/b"
+        val path = processQuery(queryStr)
+
+        var nodeId = 0
 
         val filename = "data/input.txt"
         for (line <- Source.fromFile(filename).getLines) {
@@ -64,11 +91,12 @@ object Main {
             val tag = arr(1)
 
             if (bit == 0) {
-                startElement(tag)
+                startElement(tag, path, nodeId)
+                nodeId += 1
             } else {
                 endElement(tag)
             }
-            index += 1
+
         }
     }
 
