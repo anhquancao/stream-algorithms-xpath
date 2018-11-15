@@ -79,12 +79,13 @@ object Main {
     }
 
     def main(args: Array[String]): Unit = {
-        val queryStr = "//a/b"
+        val filename:String = args(0)
+        val queryStr: String = args(1)
+
         val path = processQuery(queryStr)
 
         var nodeId = 0
 
-        val filename = "data/input.txt"
         for (line <- Source.fromFile(filename).getLines) {
             val arr = line.split(" ")
             val bit = Integer.parseInt(arr(0))

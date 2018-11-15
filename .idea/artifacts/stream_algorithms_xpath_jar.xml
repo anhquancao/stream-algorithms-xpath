@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="stream-algorithms-xpath:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/stream_algorithms_xpath_jar</output-path>
+    <root id="archive" name="stream-algorithms-xpath.jar">
+      <element id="module-output" name="stream-algorithms-xpath" />
+      <element id="extracted-dir" path="$USER_HOME$/.sbt/boot/scala-2.12.7/lib/scala-library.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.12-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.12-sources.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
