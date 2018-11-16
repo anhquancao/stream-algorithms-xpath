@@ -50,7 +50,7 @@ object SimpleXPath {
         tags.slice(2, tags.length)
     }
 
-    def startElement(tag: String, path: Array[String], nodeId: Int) = {
+    def startElement(tag: String, path: Array[String], nodeId: Int): Unit = {
         S.push(currentStep)
 
         // Store previous nodes

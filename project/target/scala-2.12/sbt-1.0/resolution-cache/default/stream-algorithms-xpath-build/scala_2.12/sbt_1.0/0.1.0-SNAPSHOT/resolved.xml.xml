@@ -4,7 +4,7 @@
 		module="stream-algorithms-xpath-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20181116215625"
+		publication="20181116222242"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

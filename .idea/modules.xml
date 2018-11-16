@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stream-algorithms-xpath.iml" filepath="$PROJECT_DIR$/.idea/modules/stream-algorithms-xpath.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Stream Algorithms XPath.iml" filepath="$PROJECT_DIR$/.idea/modules/Stream Algorithms XPath.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stream-algorithms-xpath-build.iml" filepath="$PROJECT_DIR$/.idea/modules/stream-algorithms-xpath-build.iml" />
     </modules>
   </component>

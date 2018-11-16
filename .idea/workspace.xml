@@ -2,30 +2,32 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="stream-algorithms-xpath:jar" />
+      <artifact name="Stream Algorithms XPath:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72325b67-c38b-4958-8bf2-b4eedc590f1d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/eagerDFA_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lazyDFA_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/simpleXPath_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MF/eagerDFA/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MF/simpleXPath/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/stream_algorithms_xpath_jar.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Stream Algorithms XPath.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/eagerDFA_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lazyDFA_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Stream_Algorithms_XPath_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/simpleXPath_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_7_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/stream-algorithms-xpath-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/stream-algorithms-xpath-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/stream-algorithms-xpath.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5a7f9039c29ea67b3566$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5a7f9039c29ea67b3566.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5a7f9039c29ea67b3566.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a5d841c898732f2b323d$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a5d841c898732f2b323d.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a5d841c898732f2b323d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$acbb7b89c0762abcc7c1$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$acbb7b89c0762abcc7c1.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$acbb7b89c0762abcc7c1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ea267370ea0174f05411$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ea267370ea0174f05411.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ea267370ea0174f05411.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MF/eagerDFA/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stream_algorithms_xpath_jar/stream-algorithms-xpath.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4052e0b3c34cb7c2ca16$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4052e0b3c34cb7c2ca16.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4052e0b3c34cb7c2ca16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8ab62bec9568dff89168$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8ab62bec9568dff89168.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8ab62bec9568dff89168.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cf1b8d6f28af858d1fbf$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cf1b8d6f28af858d1fbf.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cf1b8d6f28af858d1fbf.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/stream-algorithms-xpath-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/stream-algorithms-xpath-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/stream-algorithms-xpath-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/stream-algorithms-xpath-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-stream-algorithms-xpath-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-stream-algorithms-xpath-build-compile-internal.xml" afterDir="false" />
@@ -52,16 +54,59 @@
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/assignment1/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/assignment2/EagerDFA.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/assignment2/EagerDFA.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/assignment2/LazyDFA.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/assignment2/LazyDFA.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment1/Main$$anonfun$KMP$1$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment1/Main$$anonfun$KMP$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment1/Main$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment1/Main$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment1/SimpleXPath$$anonfun$KMP$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment1/SimpleXPath$$anonfun$KMP$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment1/SimpleXPath$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment1/SimpleXPath$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/assignment1/SimpleXPath$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment1/SimpleXPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/assignment1/SimpleXPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$convertEager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$convertEager$2$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$convertEager$2$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$convertEager$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$convertLazy$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$convertLazy$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$convertLazy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$move$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$move$1$$anonfun$apply$mcVI$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$$anonfun$move$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/DFAConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/EagerDFA$$anonfun$eval$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/EagerDFA$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/EagerDFA$$anonfun$processQuery$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/EagerDFA$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/EagerDFA$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/EagerDFA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/EagerDFA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/LazyDFA$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/LazyDFA$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/LazyDFA$$anonfun$processQuery$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/LazyDFA$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/LazyDFA$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/LazyDFA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/LazyDFA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/NFA$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/NFA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/assignment2/NFA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/stream-algorithms-xpath$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/stream-algorithms-xpath$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/stream-algorithms-xpath$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/stream-algorithms-xpath$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-stream-algorithms-xpath$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,18 +138,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="sbt" value="4" />
           <entry key="scala" value="4757" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Scala" value="4757" />
+          <entry key="sbt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
-          <entry key="sbt" value="1" />
+          <entry key="sbt" value="2" />
           <entry key="scala" value="6" />
         </counts>
       </usages-collector>
@@ -112,7 +159,7 @@
         <counts>
           <entry key="Manifest" value="1" />
           <entry key="Scala" value="6" />
-          <entry key="sbt" value="1" />
+          <entry key="sbt" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -122,17 +169,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+            <state relative-caret-position="378">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <element signature="e#22#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/EagerDFA.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            <state relative-caret-position="289">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#21#52#0" expanded="true" />
               </folding>
@@ -162,7 +221,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/DFA.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -171,7 +230,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/NFA.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="40" />
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -201,9 +260,10 @@
         <option value="$PROJECT_DIR$/src/main/scala/assignment2/DFA.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/assignment2/Main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/assignment2/DFAConvert.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/assignment2/LazyDFA.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/assignment2/EagerDFA.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
       </list>
     </option>
   </component>
@@ -218,6 +278,9 @@
     <option name="y" value="105" />
     <option name="width" value="1390" />
     <option name="height" value="998" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -234,59 +297,7 @@
             <path>
               <item name="Stream Algorithms XPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stream Algorithms XPath" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stream Algorithms XPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stream Algorithms XPath" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stream Algorithms XPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stream Algorithms XPath" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stream Algorithms XPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stream Algorithms XPath" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="stream_algorithms_xpath_jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stream Algorithms XPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stream Algorithms XPath" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stream Algorithms XPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stream Algorithms XPath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stream Algorithms XPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stream Algorithms XPath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stream Algorithms XPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stream Algorithms XPath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Stream Algorithms XPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stream Algorithms XPath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,8 +310,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542402104008" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MF/eagerDFA" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542403760773" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MF/simpleXPath" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -377,10 +388,23 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="assignment1.SimpleXPath" />
       <module name="stream-algorithms-xpath" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/input.txt //a/b" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleXPath" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="assignment1.SimpleXPath" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,9 +437,11 @@
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.DFAConvert" />
       <item itemvalue="Application.LazyDFA" />
+      <item itemvalue="Application.SimpleXPath" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleXPath" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.LazyDFA" />
@@ -436,11 +462,11 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="stream-algorithms-xpath" />
+                <option name="name" value="stream-algorithms-xpath [file:/home/quan/code/progfun/Stream%20Algorithms%20XPath/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="stream-algorithms-xpath-build" />
+                <option name="name" value="stream-algorithms-xpath-build [file:/home/quan/code/progfun/Stream%20Algorithms%20XPath/]" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -450,8 +476,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3079176344000" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="3875493821" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="4098553939" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2428047534" />
       </map>
     </option>
@@ -459,7 +484,6 @@
       <map>
         <entry key="$PROJECT_DIR$/../../PrMTM" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../prmtm" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/../recfun" value="PREVIEW" />
       </map>
     </option>
@@ -480,12 +504,12 @@
       <workItem from="1542299555779" duration="599000" />
       <workItem from="1542310440498" duration="6484000" />
       <workItem from="1542358345225" duration="8736000" />
-      <workItem from="1542389873802" duration="9853000" />
+      <workItem from="1542389873802" duration="11400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32145000" />
+    <option name="totallyTimeSpent" value="33692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,7 +522,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="30" width="1853" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13835086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -509,14 +532,14 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991699" weight="0.22584148" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991699" visible="true" weight="0.22584148" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997233" weight="0.35504887" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4991699" visible="true" weight="0.23669924" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4991699" weight="0.23669924" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008301" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -541,9 +564,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/scriptFile.scala" />
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -554,14 +574,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/NFA.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="40" />
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/DFA.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/LazyDFA.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="252">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -572,30 +595,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/DFA.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/LazyDFA.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/EagerDFA.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="e#22#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -605,7 +635,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>eagerDFA:jar</last-edited>
+          <last-edited>Stream Algorithms XPath:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -654,7 +684,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>stream-algorithms-xpath</last-edited>
+          <last-edited>stream-algorithms-xpath-build</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
