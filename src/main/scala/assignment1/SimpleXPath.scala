@@ -64,7 +64,7 @@ object SimpleXPath {
             // match
             if (currentStep == path.length - 1) {
                 println(nodeId)
-                currentStep = 0
+                currentStep = KMP(previousNodes, path)
             } else {
                 currentStep += 1
             }
