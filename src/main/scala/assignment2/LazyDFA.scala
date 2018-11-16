@@ -3,7 +3,7 @@ package assignment2
 import scala.collection.mutable
 import scala.io.Source
 
-object Main {
+object LazyDFA {
 
     private var S = mutable.Stack[String]()
 
@@ -12,11 +12,6 @@ object Main {
         tags.slice(1, tags.length).map(x => if (x == "") "*" else x)
     }
 
-    def eval(state: String, dfa: DFA, tag: String): String = {
-        if (dfa.transitions.keys.exists(_ == (state, tag))) {
-            dfa.transitions((state, tag))
-        } else ""
-    }
 
     def main(args: Array[String]): Unit = {
         val filename: String = "data/input.txt"
@@ -28,9 +23,9 @@ object Main {
 
         val nfa = new NFA(path)
 
-        val dfa: DFA = DFAConvert.convert(nfa)
-
         var nodeId = 0
+
+        var dfa: DFA = new DFA()
 
 
         for (line <- Source.fromFile(filename).getLines) {
@@ -42,7 +37,13 @@ object Main {
             if (bit == 0) {
                 // start elemenent
                 S.push(state)
-                state = eval(state, dfa, tag)
+                dfa = DFAConvert.convertLazy(dfa, nfa, state, tag)
+
+                if (dfa.transitions.keys.exists(_ == (state, tag))) {
+                    state = dfa.transitions((state, tag))
+                } else {
+                    state = ""
+                }
                 if (dfa.F.contains(state)) {
                     println(nodeId)
                 }
