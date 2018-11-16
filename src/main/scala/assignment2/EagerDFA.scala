@@ -19,8 +19,8 @@ object EagerDFA {
     }
 
     def main(args: Array[String]): Unit = {
-        val filename: String = "data/input.txt"
-        val queryStr: String = "//a/b//a/b"
+        val filename:String = args(0)
+        val queryStr: String = args(1)
 
         var state: String = "0"
 

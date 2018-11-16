@@ -4,7 +4,7 @@ package assignment1
 import scala.collection.mutable
 import scala.io.Source
 
-object Main {
+object SimpleXPath {
     private var S = mutable.Stack[Int]()
 
     private var previousNodes: Array[String] = Array()
