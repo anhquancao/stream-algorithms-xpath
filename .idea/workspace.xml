@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72325b67-c38b-4958-8bf2-b4eedc590f1d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/simpleXPath.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bin/simpleXPath.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/assignment2/DFAConvert.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/assignment2/DFAConvert.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/assignment2/EagerDFA.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/assignment2/EagerDFA.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/assignment2/LazyDFA.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/assignment2/LazyDFA.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,12 +41,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="sbt" value="4" />
-          <entry key="scala" value="5882" />
+          <entry key="scala" value="6178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="5882" />
+          <entry key="Scala" value="6178" />
           <entry key="sbt" value="4" />
         </counts>
       </usages-collector>
@@ -76,11 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="-17">
+              <caret line="94" column="16" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
               <folding>
                 <element signature="e#22#53#0" expanded="true" />
               </folding>
@@ -113,16 +105,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/LazyDFA.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="54" column="40" lean-forward="true" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/DFAConvert.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="135" column="35" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
+            <state relative-caret-position="487">
+              <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -177,8 +169,8 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/assignment2/EagerDFA.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/assignment2/LazyDFA.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/assignment2/DFAConvert.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/assignment2/DFAConvert.scala" />
       </list>
     </option>
   </component>
@@ -249,7 +241,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/quan/code/progfun/Stream Algorithms XPath/src/main/scala/assignment2/DFAConvert.scala" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542443497745" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542443860117" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/MF/simpleXPath" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -378,12 +370,12 @@
       <workItem from="1542310440498" duration="6484000" />
       <workItem from="1542358345225" duration="8736000" />
       <workItem from="1542389873802" duration="15195000" />
-      <workItem from="1542441298933" duration="2087000" />
+      <workItem from="1542441298933" duration="2453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39574000" />
+    <option name="totallyTimeSpent" value="39940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,7 +390,7 @@
     <frame x="67" y="30" width="1853" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14001107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14001107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -414,7 +406,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4991699" visible="true" weight="0.23669924" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4991699" visible="true" weight="0.23669924" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008301" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -473,14 +465,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/LazyDFA.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="54" column="40" lean-forward="true" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/DFAConvert.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="135" column="35" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -496,11 +481,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/assignment1/SimpleXPath.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="-17">
+          <caret line="94" column="16" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
           <folding>
             <element signature="e#22#53#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/assignment2/DFAConvert.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
         </state>
       </provider>
     </entry>

@@ -37,12 +37,17 @@ object DFAConvert {
         var unmarkedStates: Array[String] = Array(state)
         dfa.F = dfa.F :+ nfa.F.toString
 
+
         var transitionLabels: Array[String] = (dfa.transitions.map(_._1._2).toArray :+ label).distinct
 
         while (unmarkedStates.length != 0) {
+            // Get the first unmarked state
             val unmarkedState = unmarkedStates(0)
             for (label <- transitionLabels) {
+                // get the list of states composed this state
                 val unmarkedStateArray: Array[Int] = unmarkedState.split("").map(_.toInt)
+
+                // find the next state
                 val states = move(nfa.transitions, unmarkedStateArray, label)
 
                 if (states.length == 0) {
@@ -58,10 +63,15 @@ object DFAConvert {
                     }
                     dfa.transitions += ((unmarkedState, label) -> deadState)
                 } else {
+                    // Create the new state. Eg: "01", "0123"
                     val newState = states.sorted.mkString("")
+
+                    // Add the new state to the DFA if it is not in the DFA
                     if (!dfa.Q.contains(newState)) {
                         unmarkedStates = unmarkedStates :+ newState
                         dfa.Q = dfa.Q :+ newState
+
+                        // check if it has the final state
                         if (states.contains(nfa.F)) {
                             dfa.F = dfa.F :+ newState
                         }
@@ -89,9 +99,13 @@ object DFAConvert {
         val transitionLabels: List[String] = nfa.transitions.map(_._1._2).filter(_ != "*").toSet.toList
 
         while (unmarkedStates.length != 0) {
+            // Get the first unmarked state
             val unmarkedState = unmarkedStates(0)
             for (label <- transitionLabels) {
+                // get the list of states composed this state
                 val unmarkedStateArray: Array[Int] = unmarkedState.split("").map(_.toInt)
+
+                // find the next state
                 val states = move(nfa.transitions, unmarkedStateArray, label)
 
                 if (states.length == 0) {
@@ -107,10 +121,15 @@ object DFAConvert {
                     }
                     dfa.transitions += ((unmarkedState, label) -> deadState)
                 } else {
+                    // Create the new state. Eg: "01", "0123"
                     val newState = states.sorted.mkString("")
+
                     if (!dfa.Q.contains(newState)) {
+                        // Add the new state to the DFA if it is not in the DFA
                         unmarkedStates = unmarkedStates :+ newState
                         dfa.Q = dfa.Q :+ newState
+
+                        // check if it has the final state
                         if (states.contains(nfa.F)) {
                             dfa.F = dfa.F :+ newState
                         }
