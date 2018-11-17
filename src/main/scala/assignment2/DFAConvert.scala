@@ -3,6 +3,14 @@ package assignment2
 import assignment2.EagerDFA.processQuery
 
 object DFAConvert {
+    /**
+      * Takes a state and a character, and returns
+      * the set of states reachable by one transition on this character.
+      * @param transition
+      * @param states
+      * @param a
+      * @return
+      */
     def move(transition: Map[(Int, String), Int], states: Array[Int], a: String): Array[Int] = {
         var returnStates: Set[Int] = Set()
         for (s <- states) {
@@ -16,6 +24,14 @@ object DFAConvert {
         returnStates.toArray
     }
 
+    /**
+      * Extend the input DFA using the NFA, input state and transition label
+      * @param dfa
+      * @param nfa
+      * @param state
+      * @param label
+      * @return
+      */
     def convertLazy(dfa: DFA, nfa: NFA, state: String, label: String): DFA = {
 
         var unmarkedStates: Array[String] = Array(state)
@@ -59,6 +75,11 @@ object DFAConvert {
         dfa
     }
 
+    /**
+      * Convert the NFA to DFA
+      * @param nfa
+      * @return
+      */
     def convertEager(nfa: NFA): DFA = {
         val dfa = new DFA()
         dfa.Q = nfa.Q.map(_ + "")
@@ -113,8 +134,6 @@ object DFAConvert {
         val nfa = new NFA(path)
 
         val dfa = convertEager(nfa)
-
-        val a = 2
     }
 
 }
